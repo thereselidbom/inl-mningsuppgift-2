@@ -1,0 +1,16 @@
+.btn-yellow {
+    background-color: #ffbb00;
+    color: #ffffff;
+    border-radius: 0.7rem;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+
+    &:hover {
+        background-color: #ffc935;
+    }
+}
+
+@import "./animations";
+@import "./sections/header";
+@import "./sections/partners";
+@import "./sections/aboutus";

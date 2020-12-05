@@ -1,0 +1,31 @@
+#showcase {
+    margin-top: 2rem;
+
+    color: #ffffff;
+    text-align: center;
+
+    @media (min-width: 992px) {
+        text-align: left;
+    }
+
+    h1 {
+        font-size: 57px;
+        font-weight: bold;
+
+    }
+
+    p {
+        font-weight: bold;
+        width: 80%;
+    }
+
+    .mobiles {
+        text-align: right;
+
+        img {
+            height: auto;
+            width: 100%;
+        }
+    
+    }
+}

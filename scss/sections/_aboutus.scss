@@ -1,0 +1,24 @@
+#about-us {
+    padding-top: 3rem;
+    text-align: center;
+
+    @media (min-width: 768px) {
+        text-align: left;
+    }
+
+    .left-column {
+        flex: 1;
+        position: relative;
+
+        .mobile-bg {
+            position: absolute;
+            z-index: -1;
+            top: 5%;
+            left: -25%;
+            animation: spin 4s linear infinite;
+        }
+    }
+    .right-column {
+        flex: 1;
+    }
+}
