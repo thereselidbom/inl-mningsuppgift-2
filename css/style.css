@@ -204,6 +204,10 @@ margin-bottom: -11rem;
   width: 110px;
 }
 
+.form-control {
+  font-size: 9px;
+}
+
 footer {
   background-image: url(/images/Bg2.png);
 }
@@ -370,6 +374,10 @@ footer {
     .buttondownload img {
       height: auto;
       width: 20px;
+  }
+
+  .form-control {
+    font-size: 19px;
   }
 
   }
