@@ -199,6 +199,7 @@ margin-bottom: -11rem;
 }
 
 #buttondownload img {
+  padding: 1em;
   height: auto;
   width: 110px;
 }
@@ -212,7 +213,7 @@ footer {
 }
 
 .socialmedia ul li i{
-  padding: .1em .5em;
+  padding: .8em;
   border: none;
   border-radius: 30%;
   color: white;
